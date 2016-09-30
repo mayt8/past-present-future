@@ -1,0 +1,41 @@
+body{
+  background-color: #d6d6c2;
+  max-width: 700px;
+}
+
+  h1 {
+    font-size: 30px;
+    color: #ff80ff;
+    border: 10px double #ff80ff;
+    text-align: center;
+   font-family: 'Indie Flower', cursive;
+  }
+
+img {
+  max-width: 100%;
+}
+
+img.right {
+  float:right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+img.left{
+  float:left;
+  margin-right: 20px;
+  margin-bottom:20px;
+}
+/*unvisited link*/
+a:link {
+  color: #ac39ac;
+}
+
+/*visited link*/
+a:visited {
+  color:#009900;
+}
+
+/*mouse over link*/
+a:hover {
+  color:#00e6e6;
+}
